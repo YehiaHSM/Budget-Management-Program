@@ -1,0 +1,54 @@
+Budget Management Program Documentation
+Overview
+This C++ program is designed to help users manage their budget by recording income, expenses, and recurring costs. Users can input details, edit or delete entries, and obtain a net total along with a breakdown of income, expenses, and recurring costs.
+
+Structures
+Income
+Structure to store information about income.
+Fields:
+Iname: Array to store the name of the income source (up to 25 characters).
+Iamount: Integer to store the amount of income.
+Expenses
+Structure to store information about expenses.
+Fields:
+Ename: Array to store the name of the expense (up to 25 characters).
+Eamount: Integer to store the amount of the expense.
+Recurring
+Structure to store information about recurring costs.
+Fields:
+Rname: Array to store the name of the recurring cost (up to 25 characters).
+Ramount: Integer to store the amount of the recurring cost.
+Main Function
+Input Phase:
+
+Users are prompted to input details for income, expenses, and recurring costs until they choose not to add more.
+Editing Phase:
+
+Users are given the option to edit or delete entries for income, expenses, and recurring costs.
+Editing options include changing the name and amount of entries.
+Output Phase:
+
+The program displays a summary of income, expenses, recurring costs, and the net total.
+If the net total is negative, a message suggests decreasing expenses or increasing income.
+System Pause:
+
+The system("pause") command is used to keep the console window open until the user presses a key.
+Notes
+The program uses arrays for storing data, and entries are manipulated based on user input.
+Editing and deleting entries are provided as options to enhance user flexibility.
+The net total is calculated as the difference between income and the sum of expenses and recurring costs.
+Usage
+Compile the Code:
+
+Use a C++ compiler to compile the code.
+Run the Executable:
+
+Execute the compiled program.
+Follow On-Screen Prompts:
+
+Input details for income, expenses, and recurring costs.
+Choose to edit or delete entries.
+View the summary and net total.
+Interpret Results:
+
+Analyze the output to understand your financial situation.
